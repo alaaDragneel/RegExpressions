@@ -11,6 +11,9 @@
             "RegExpressions\\": "src/"
         }
     },
+    "scripts": {
+        "test": "vendor/bin/phpunit --colors=always --verbose --bootstrap vendor/autoload.php --configuration phpunit.xml tests/"
+    },
     "license": "MIT",
     "authors": [
         {
